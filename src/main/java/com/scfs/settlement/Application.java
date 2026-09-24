@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * Trade Settlement System
- * Part of Astrophage Github Org - GFMG/SCFS
+ * Part of Apex Github Org - GFMG/SCFS
  */
 @SpringBootApplication
 @EnableKafka
