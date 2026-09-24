@@ -10,10 +10,10 @@
     <name>trade-settlement-system</name>
     <description>Post-Trade Settlement System for SecureClear Financial Services (GFMG)</description>
 
-    <!-- Astrophage internal parent POM -->
+    <!-- Apex internal parent POM -->
     <parent>
-        <groupId>com.gfmg.astrophage</groupId>
-        <artifactId>astrophage-bom</artifactId>
+        <groupId>com.gfmg.apex</groupId>
+        <artifactId>apex-bom</artifactId>
         <version>4.2.0</version>
     </parent>
 
@@ -31,7 +31,7 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.gfmg.astrophage.shared</groupId>
+            <groupId>com.gfmg.apex.shared</groupId>
             <artifactId>gfmg-common-models</artifactId>
             <version>1.1.0</version>
         </dependency>

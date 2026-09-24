@@ -13,7 +13,7 @@ The TSS is a critical Tier-1 application within GFMG's infrastructure. It provid
 - **Idempotency**: All Kafka consumers use the `tradeId` to guarantee idempotent processing.
 - **Dead Letter Queue (DLQ)**: Unprocessable trades are routed to `nte.trades.matched.dlq`.
 
-## Integration Points (Astrophage Org)
+## Integration Points (Apex Org)
 - Kafka: `kafka.internal.gfmg.com:9092`
 - Database: PostgreSQL 14 (Primary/Replica)
 - External: SWIFT Network Gateway Integration

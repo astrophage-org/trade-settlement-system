@@ -5,7 +5,7 @@ Part of the Global Financial Markets Group (GFMG) - SecureClear Financial Servic
 The Trade Settlement System is responsible for the post-trade lifecycle, including clearing, ledger updates, and bank transfers.
 
 ## Architecture Context
-This service integrates closely with sister repositories within the `Astrophage` Github organization:
+This service integrates closely with sister repositories within the `Apex` Github organization:
 - `order-matching-engine`: Upstream system. We consume `nte.trades.matched` to initiate settlement.
 - `market-data-gateway`: Provides reference data for pricing and forex conversions during settlement.
 - `compliance-surveillance-monitor`: Downstream system. We publish to `scfs.settlement.status` for regulatory and AML monitoring.
